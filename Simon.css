@@ -60,6 +60,17 @@ h1,h3,p{
     /* background-color: white; */
     background-color: white !important;
 }
+
+.guid{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
+    margin: 0;
+}
+
 @media (max-width:500px){
     .blocks{
         width: 40%;
