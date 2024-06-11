@@ -36,7 +36,7 @@ allBtns.addEventListener("click",function(event){
         // userSeq.push(val);
         if(val != gameSeq[clickCountInd]){
             // console.log("Game OVER");
-            GameOver.innerHTML="<b style='color:red;'>Game Over</b> "  + "Click Start To Play Again.."
+            GameOver.innerHTML="<b style='color:red;'>Game Over</b> "  + "Click Start To Play Again.."+"<br>You've reached at level : "+`${lev}`;
             startBtn.classList.remove("dis-none");
             gameSeq=[]
             lev=0;
