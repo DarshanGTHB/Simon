@@ -1,0 +1,54 @@
+h1,h3,p{
+    text-align: center;
+}
+
+.dis-none{
+    display: none;
+
+}
+
+.maindiv{
+    width: 20%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.blocks{
+    width: 35%;
+    height: 35%;
+    border-radius: 10px;
+    border: 5px solid black;
+    transition: 0.2s;
+}
+
+.blocks:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 5px gray;
+}
+
+#zero{
+    background-color: rgb(94, 219, 94);
+}
+
+#one{
+    background-color: rgb(193, 77, 193);
+}
+
+#two{
+    background-color: rgb(191, 68, 68);
+}
+
+#three{
+    background-color: rgb(66, 66, 166);
+}
+
+.blink{
+    border:3px solid rgb(0, 255, 0);
+    /* background-color: white; */
+    background-color: white !important;
+}
