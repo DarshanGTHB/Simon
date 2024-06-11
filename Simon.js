@@ -11,7 +11,7 @@ let GameOver = document.querySelector(".para");
 function levUp(){
     if(start){
         lev++;
-        console.log(gameSeq);
+        //console.log(gameSeq);
     clickCountInd=0;
     // console.log("Level up : ",lev,clickCountInd);
     let randomInd = Math.floor(Math.random()*4);
